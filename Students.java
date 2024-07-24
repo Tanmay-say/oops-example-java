@@ -5,7 +5,7 @@ class Students {
     public void setAge(int age){
         if(age < 0) {
             System.out.println("Age cannot be negative");
-            System.exit(0);
+            //System.exit(0);
         }
         else{
             this.age = age;
@@ -25,6 +25,7 @@ class Students {
     public Students(String name, int age) {
         this.name=name;
         this.age=age;
+        System.out.println("constructor called");
     }
 
 }
