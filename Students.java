@@ -22,5 +22,9 @@ class Students {
     void display() {
         System.out.println("Name: " + name + " Age: " + age);
     }
+    public Students(String name, int age) {
+        this.name=name;
+        this.age=age;
+    }
 
 }
