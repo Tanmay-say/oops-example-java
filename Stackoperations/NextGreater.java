@@ -1,11 +1,13 @@
-package Stack123;
+package Stackoperations;
+
+
 import java.util.Stack;
 public class NextGreater {
     public static void main(String[] args) {
         int[] arr = {11,2,-4,5,6,8,14,15};
         int[] res = nextGreater(arr);
         for(int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + " ");
+            System.out.println(arr[i] + "   " +res[i] + " ");
         }
     }
     public static int[] nextGreater(int[] arr) {

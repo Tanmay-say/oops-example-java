@@ -1,4 +1,4 @@
-package Stack123;
+package Stackoperations;
 
 import java.util.Stack;
 public class Parenthesis {
