@@ -23,7 +23,7 @@ public class DeleteNode {
         head.next.next = new ListNode(1);
         head.next.next.next = new ListNode(9);
 
-        ListNode nodeToDelete = head.next; // Node with value 5
+        ListNode nodeToDelete = head.next; 
         delete(nodeToDelete);
 
         ListNode curr = head;
