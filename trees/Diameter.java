@@ -39,3 +39,6 @@ class Solution {
         int diameter = 0;
     }
 }
+
+
+/* There is no restriction on data members */
